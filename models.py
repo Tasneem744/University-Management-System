@@ -121,7 +121,7 @@ class Instructor(Person):
 
         self._specialization = specialization
         self.__salary = salary
-
+        self.assigned_courses = []    
     def set_age(self, new_age):
         if not 22 <= new_age <= 80:
             raise ValueError(
@@ -136,6 +136,7 @@ class Instructor(Person):
 
         print(f"Specialization: {self._specialization}")
         print(f"Salary: ${self.__salary}")
+        print(f"Assigned Courses: {len(self.assigned_courses)}")
         print("=" * 50)
 
     def increase_salary(self, amount):
@@ -147,6 +148,22 @@ class Instructor(Person):
         self.__salary += amount
 
     def get_salary(self):
-        return self.__salary
+        return self.__salary   
+    
+    def remove_course(self, course):
+
+        if course not in self.assigned_courses:
+            print("Course is not assigned to this instructor")
+            return False
+
+        self.assigned_courses.remove(course)
+
+        
+        if course.instructor == self:
+            course.instructor = None
+
+        print("Course removed successfully")
+
+        return True
 
 
