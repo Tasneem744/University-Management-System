@@ -86,7 +86,7 @@ class Course:
             self.department.add_instructor(instructor)
 
         print(
-            f"{instructor.name} assigned to {self.title} successfully."
+            f"{instructor.get_name} assigned to {self.title} successfully."
         )
 
         return True
@@ -115,7 +115,7 @@ class Course:
 
         for student in self.students:
 
-            if student.person_id == student_id:
+            if student.get_id == student_id:
 
                 self.students.remove(student)
 
@@ -131,7 +131,7 @@ class Course:
     def display_info(self):
 
         if self.instructor is not None:
-            instructor_name = self.instructor.name
+            instructor_name = self.instructor.get_name
         else:
             instructor_name = "Not Assigned"
 
