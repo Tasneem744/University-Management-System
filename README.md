@@ -377,7 +377,7 @@ Since the project does not use `input()`, all students, instructors, departments
 
 The following screenshot shows examples of the predefined objects and operations.
 
-<!-- Add your main.py screenshot here -->
+
 
 ![Sample Predefined Data](images/sample_input.png)
 
@@ -395,7 +395,7 @@ The program displays the results of the different operations.
 
 The following screenshot shows the program output.
 
-<!-- Add your terminal output screenshot here -->
+
 
 ![Sample Output](images/sample_output.png)
 
@@ -579,14 +579,14 @@ Python + OOP + Modules + Imports
 
 # 👩‍💻 Team Members
 
-| Team Member | Responsibility                                   |
-| ----------- | ------------------------------------------------ |
-| Member 1    | Person, Student, and Instructor classes          |
-| Member 2    | Department and Course classes                    |
-| Member 3    | Enrollment, Grade, and UniversitySystem logic    |
-| Member 4    | Integration, Testing, main.py, and Documentation |
-
-> Replace the member names and responsibilities with the actual team information before submitting the project.
+| Team Member | Responsibility                                                |
+| ----------- | ------------------------------------------------------------- |
+| Tasneem     | Person, Student, and Instructor classes; README Documentation |
+| Basmala     | Department and Course classes; README Documentation           |
+| Heba        | Enrollment and Grade classes; Demo                            |
+| Menna       | UniversitySystem logic; Demo                                  |
+| Basma       | Class Diagram;  Main and Testing                              |
+ 
 
 ---
 
