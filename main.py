@@ -1,6 +1,5 @@
 from models import Student, Instructor
 from courses import Department, Course
-from enrollment import Enrollment
 from university import UniversitySystem
 # 1) Create the central system
 system = UniversitySystem()
